@@ -55,4 +55,4 @@ This project is licensed under the MIT-0 License.
 ## FAQ
 Will these examples work outside of Amazon SageMaker Notebook Instances?
 
-Although most examples utilize key Amazon SageMaker functionality managed training or real-time hosted endpoints, this example can be run outside of Amazon SageMaker Notebook Instances with modification (updating IAM role definition and installing the necessary libraries).
+Although most examples utilize key Amazon SageMaker functionality such as managed training or real-time hosted endpoints, this example can be run outside of Amazon SageMaker Notebook Instances with modification (updating IAM role definition and installing the necessary libraries).
