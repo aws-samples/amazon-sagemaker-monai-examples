@@ -1,2 +1,0 @@
-monai==0.3.0
-torchtext==0.6.0

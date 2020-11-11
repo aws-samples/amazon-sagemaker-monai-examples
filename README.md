@@ -40,7 +40,7 @@ To run the skin cancer model using MONAI follow the steps below:
 <li>Under Notebook > Notebook instances select Create Notebook instance. Fill in the name (ex. skin-cancer-notebook) and instance type ml.t2.medium and select volume size of 100 GB.
 <li>The Notebook will need permissions to call other services including SageMaker and S3.  Choose an existing role or create a role with the AmazonSageMakerFull Access IAM role.  
 <li>Create Notebook instance and once In Service, then Open Jupyter Lab.
-<li>In the Jupyter Notebook, select File > New > Terminal, cd SageMaker and execute git clone https://github.com/brymrsh/mb3-skin-cancer.
+<li>In the Jupyter Notebook, select File > New > Terminal, cd SageMaker and execute <code> git clone https://github.com/aws-samples/amazon-sagemaker-monai-examples </code>
 <li>Update the set.env file within Jupyter Notebook with the S3 location (SKIN_CANCER_BUCKET) and prefix/path (SKIN_CANCER_BUCKET_PATH) of the dataverse_files.zip uploaded to S3.
 <li>Open the Jupyter Notebook monai_skin_cancer.ipynb and Run > Run all cells to observe the skin cancer example using MONAI.
 <li>The example output shows inference results on five sample skin cancer images from the validation set and includes probablity of the skin cancer classification.
