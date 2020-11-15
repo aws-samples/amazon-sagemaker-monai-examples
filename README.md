@@ -12,7 +12,7 @@ This MONAI Skin Cancer model implementation utilizes:
 - Amazon S3 bucket for skin cancer images
 - Amazon Sagemaker Notebook instance ml.t2.medium with 100 GB EBS and conda_pytorch_p36 kernel
 - Amazon Sagemaker Pytorch managed container
-- [HAM10000 dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) produced by Harvard Dataverse
+- [HAM10000 dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) hosted by Harvard Dataverse
 - MONAI 0.3.0
 
 
