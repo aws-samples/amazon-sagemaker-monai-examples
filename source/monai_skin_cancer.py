@@ -5,7 +5,6 @@ import argparse
 import json
 import logging
 import os
-import sagemaker_containers
 import sys
 import torch
 import torch.distributed as dist
