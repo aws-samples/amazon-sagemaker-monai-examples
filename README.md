@@ -32,10 +32,10 @@ The skin cancer predictive model uses Amazon Sagemaker architecture which includ
 To run the skin cancer model using MONAI follow the steps below:
 
 <ol>
-<li>Create an S3 bucket in your account.
+<li>Create an S3 bucket in your account and add an empty folder to it. 
 <li>Navigate to the dataset download at <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T">HAM10000</a>.
 <li>Select "Access Dataset" in top right, and review the license Creative Commons Attribution-NonCommercial 4.0 International Public License. 
-<li>If you accept license, then select "Original Format Zip" and upload the zip to the S3 bucket created in previous steps.
+<li>If you accept license, then select "Original Format Zip" and upload the zip to the folder in the S3 bucket you created in the previous steps.
 <li>Navigate to Amazon Sagemaker in the same account to create a Jupyter Notebook instance.
 <li>Under Notebook > Notebook instances select Create Notebook instance. Fill in the name (ex. skin-cancer-notebook) and instance type ml.t2.medium and select volume size of 100 GB.
 <li>The Notebook will need permissions to call other services including SageMaker and S3.  Choose an existing role or create a role with the AmazonSageMakerFull Access IAM role.  

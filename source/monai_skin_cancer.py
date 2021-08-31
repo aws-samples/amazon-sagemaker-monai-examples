@@ -5,7 +5,6 @@ import argparse
 import json
 import logging
 import os
-import sagemaker_containers
 import sys
 import torch
 import torch.distributed as dist
@@ -198,6 +197,7 @@ def train(args):
     
     #test data:classification report
     model.load_state_dict(torch.load('best_metric_model.pth'))
+    model.to(device)
     model.eval()
     y_true = list()
     y_pred = list()
